@@ -1,0 +1,26 @@
+#race {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+    padding: 20px;
+}
+
+#race div {
+    text-align: center;
+    justify-content: center;
+    flex: 1 1 200px;
+    max-width: 300px;
+}
+
+#race img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+    transition: transform 0.3s;
+}
+
+#race img:hover {
+    transform: scale(1.05);
+}
